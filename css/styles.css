@@ -18,7 +18,8 @@ h1 {
 
 /**********Class Selectors*********/
 .abouttext {
-  padding-right: 20px;;
+  padding-right: 5px;
+  margin: 6px
 }
 .container {
   border-style: solid;
@@ -100,4 +101,8 @@ h1 {
 .subtitle {
   font-family: 'Raleway', sans-serif;
   margin-top: 0;
+}
+
+.topline {
+  padding-top: 15px;
 }
