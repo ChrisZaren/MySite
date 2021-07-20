@@ -1,0 +1,67 @@
+/**********Tag Selectors*********/
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {}
+
+/**********Class Selectors*********/
+.container-follow {
+  background-color: white;
+  border-style: solid;
+  height: 100px;
+  left: 50%;
+  margin-left: -50px;
+  position: fixed;
+  top: 40px;
+  width: 100px;
+  z-index: 10;
+}
+
+.container-about {
+  border-color: green;
+  border-style: solid;
+  height: 100px;
+  margin: 0 auto;
+  padding-right: 20px;
+  position: absolute;
+  right: 40px;
+  text-align: right;
+  top: 40px;
+  width: 200px;
+}
+
+.container-name {
+  border-color: red;
+  border-style: solid;
+  height: 100px;
+  left: 40px;
+  padding-left: 20px;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: 200px;
+}
+
+.container-statement {
+  border-color: yellow;
+  border-style: solid;
+  height: 300px;
+  left: 40px;
+  margin: 0 auto;
+  padding-right: 10px;
+  position: absolute;
+  right: 40px;
+  text-align: center;
+  top: 180px;
+  width: 90%;
+}
+
+.statement {
+  font-size: 100px
+}
