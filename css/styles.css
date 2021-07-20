@@ -75,6 +75,7 @@ h1 {
   height: 300px;
   left: 40px;
   margin: 0 auto;
+  min-width: 762px;
   overflow: hidden;
   position: absolute;
   right: 40px;
@@ -95,6 +96,7 @@ h1 {
 .header {
   background-color: #FAF9F6;
   height: 140px;
+  min-width: 850px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -103,8 +105,9 @@ h1 {
 
 .project1 {
   border-color: blue;
-  top: 500px;
   font-size: 20px;
+  min-width: 762px;
+  top: 500px;
 }
 
 .project1img {
@@ -114,6 +117,8 @@ h1 {
 
 .project2 {
   border-color: orange;
+  font-size: 20px;
+  min-width: 762px;
   top: 920px;
 }
 
