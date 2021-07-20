@@ -38,8 +38,8 @@ h1 {
   height: 100px;
   left: 50%;
   margin-left: -50px;
-  position: fixed;
-  top: 40px;
+  position: absolute;
+  top: 20px;
   width: 100px;
   z-index: 10;
 }
@@ -51,9 +51,9 @@ h1 {
   height: 100px;
   margin: 0 auto;
   position: absolute;
+  top: 20px;
   right: 40px;
   text-align: right;
-  top: 40px;
   width: 200px;
 }
 
@@ -63,8 +63,8 @@ h1 {
   height: 100px;
   left: 40px;
   position: absolute;
+  top: 20px;
   text-align: center;
-  top: 40px;
   width: 200px;
 }
 
@@ -83,6 +83,23 @@ h1 {
   width: 90%;
 }
 
+.footer {
+  font-family: 'Raleway', sans-serif;
+  left: 40px;
+  margin: 0 auto;
+  position: absolute;
+  top: 1350px;
+}
+
+.header {
+  background-color: #FAF9F6;
+  height: 140px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
 .project1 {
   border-color: blue;
   top: 500px;
@@ -95,7 +112,7 @@ h1 {
 }
 
 .project2 {
-  border-color: purple;
+  border-color: orange;
   top: 920px;
 }
 
