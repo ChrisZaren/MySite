@@ -33,7 +33,8 @@ h1 {
 }
 
 .container-follow {
-  background-color: white;
+  background-color: black;
+  border-radius: 50%;
   border-style: solid;
   height: 100px;
   left: 50%;
@@ -52,7 +53,7 @@ h1 {
   margin: 0 auto;
   position: absolute;
   top: 20px;
-  right: 40px;
+  right: 35px;
   text-align: right;
   width: 300px;
 }
@@ -103,6 +104,10 @@ h1 {
   z-index: 10;
 }
 
+.imgbox {
+  margin-top: 25px;
+}
+
 .project1 {
   border-color: blue;
   font-size: 20px;
@@ -112,7 +117,7 @@ h1 {
 
 .project1img {
   display: inline-block;
-  height: 400px;
+  height: 350px;
 }
 
 .project2 {
