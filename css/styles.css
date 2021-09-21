@@ -118,6 +118,8 @@ h1 {
 .project1img {
   display: inline-block;
   height: 350px;
+  border-color: black;
+  border-style: solid;
 }
 
 .project2 {
@@ -150,7 +152,7 @@ h1 {
   text-align: right;
   width: 15%;
   right: 10px;
-  bottom: 240px;
+  bottom: 180px;
 }
 
 .topline {
